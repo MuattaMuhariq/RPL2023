@@ -24,3 +24,7 @@ Route::get('/Registerpage', function () {
 Route::get('/HalamanUtama', function () {
     return view('HalamanUtama');
 });
+
+Route::get('/Landingpage', function () {
+    return view('Landingpage');
+});
